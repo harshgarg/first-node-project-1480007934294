@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: first-node-project
+  host: first-node-project
+  disk_quota: 1024M
+  services:
+  - Compose for MongoDB-41
+  - ClearDB MySQL Database-s1
+  - availability-monitoring-auto
